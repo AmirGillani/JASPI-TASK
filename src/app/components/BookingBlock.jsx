@@ -16,8 +16,8 @@ export default function BookingBlock({ booking }) {
 
   return (
     <div>
-      <div className={`h-16 ${color1} p-2 font-semibold `}>{booking.customer}</div>
-      <div className={`h-16 ${color2} p-2 `}>
+      <div className={`h-6 ${color1} p-2 font-semibold `}>{booking.customer}</div>
+      <div className={`h-10 ${color2} p-2 `}>
         <div className="text-xs">{booking.service}</div>
         <div className="text-xs italic">{booking.status}</div>
       </div>
