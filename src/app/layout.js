@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
       <body>
         <BookingProvider>
           
-          <div className="grid grid-cols-[1fr_6fr]">
+          <div className="md:grid grid-cols-[1fr_6fr] p-2 md:p-0">
             <LeftMenuBar />
 
             <div>
